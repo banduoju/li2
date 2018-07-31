@@ -1,0 +1,38 @@
+/* css reset */
+html,body,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,table,tr,td,th,input,form,select,textarea,section,header,main,article,footer,nav,aside,figure,button{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+img{
+    vertical-align:bottom;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+ul,ol,li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+a>img{
+    border:none;
+}
+/*清除浮动*/
+.clearfix{
+    zoom:1;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
